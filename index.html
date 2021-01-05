@@ -382,10 +382,18 @@
             </form>
             <!-- End form -->
 
+            <!-- COMPONENT POPOVER -->
+            <div class="container">
+              <div class="row">
+                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="titulo" data-content="Content">Popover</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    
+      
+      
+
 
 
 
@@ -428,5 +436,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     
+    <script>
+      $(function() {
+        $('[data-toggle="popover"]').popover()
+      })
+
+    </script>
   </body>
 </html>
