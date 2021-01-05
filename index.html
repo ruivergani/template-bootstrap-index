@@ -330,45 +330,97 @@
         <!-- end of Jumbotron com nav-pills -->
       </main>
 
-      <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center my-5">
+            <h1 class="display-4"><i class="fa fa-paper-plane text-primary mr-3" aria-hidden="true"></i>Lorem ipsum, dolor sit</h1>
+          </div>
+        </div>
 
-      </footer>
+        <!-- Begin Form -->
+        <div class="row justify-content-center mb-5">
+          <div class="col-sm-12 col-md-10 col-lg-8">
+            <form action="">
+              <div class="form-row ">
+
+                <div class="form-group col-sm-6">
+                  <label for="inputNome">Name: </label>
+                  <input type="text" placeholder="Nome" class="form-control" id="inputNome">
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="inputSobrenome">Surname: </label>
+                  <input type="text" placeholder="Sobrenome" class="form-control" id="inputSobrenome">
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="inputEndereco">Address: </label>
+                  <input type="text" placeholder="Endereco" class="form-control" id="inputEndereco">
+                </div>
+                
+                <div class="form-group col-sm-6">
+                  <label for="inputCidade">City: </label>
+                  <input type="text" placeholder="Cidade" class="form-control" id="inputCidade">
+                </div>
+
+                <div class="form-group col-sm-4">
+                  <label for="inputEst">State: </label>
+                  <select id="inputEst" class="form-control">
+                    <option value="" selected>Escolha...</option>
+                    <option value="">Sao Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Bahia</option>
+                  </select>
+                </div>
+
+                <div class="form-group col-sm-4">
+                  <label for="inputCep">CEP: </label>
+                  <input type="text" form="inputCep" class="form-control">
+                </div>
+
+              </div>
+            </form>
+            <!-- End form -->
+
+          </div>
+        </div>
+      </div>
     
 
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Titulo do Modal</h5>
-            <button type="button" class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-          </div>
+      <!-- Modal -->
+      <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Titulo do Modal</h5>
+              <button type="button" class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+            </div>
 
-          <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                  <div class="col-6">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam architecto consequuntur earum ratione odit. Nulla error sint, quis dolorem facere nisi placeat odit eius, earum in expedita consectetur at quod!</p>
-                  </div>
-                  <div class="col-6">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam architecto consequuntur earum ratione odit. Nulla error sint, quis dolorem facere nisi placeat odit eius, earum in expedita consectetur at quod!</p>
-                  </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam architecto consequuntur earum ratione odit. Nulla error sint, quis dolorem facere nisi placeat odit eius, earum in expedita consectetur at quod!</p>
+                    </div>
+                    <div class="col-6">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam architecto consequuntur earum ratione odit. Nulla error sint, quis dolorem facere nisi placeat odit eius, earum in expedita consectetur at quod!</p>
+                    </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="modal-footer">
-            <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
-          </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+            </div>
 
+          </div>
         </div>
       </div>
-    </div>
-    <!-- End of Modal -->
+      <!-- End of Modal -->
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
